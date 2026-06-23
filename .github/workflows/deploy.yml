@@ -24,7 +24,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: anikkarmakar3/aii-app:latest
+          tags: anik1999/aii-app:latest
 
       - name: Deploy to EC2
         uses: appleboy/ssh-action@v1.0.3
