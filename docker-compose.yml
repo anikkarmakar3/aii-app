@@ -3,7 +3,7 @@ version: "3.9"
 services:
 
   app:
-    build: .
+    image: anik1999/aii-app:latest
     container_name: fastapi-app
     restart: unless-stopped
 
