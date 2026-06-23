@@ -17,7 +17,7 @@ def config():
 
 @app.get("/")
 def home():
-    return {"message": "version 1: API Working"}
+    return {"message": "version 1 API Working"}
 
 @app.get("/health")
 def health():
